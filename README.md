@@ -4,6 +4,7 @@
 ## Author
 
 Zhiang Li
+
 li.zhian@northeastern.edu
 
 ## Description
@@ -13,11 +14,10 @@ Faster is a user-friendly application that connects individuals who need errands
 ## How to Run the Program
 
 * `Clone the entire git repo.`
-* `cd Faster-Delivery-App` in the terminal
 * `npm install`
 * `npm run dev`
-*  access link http://localhost:5173/ to start the web app in the browser.
-*  double check if your port is 5173 or something else, incorrect port may lead to errors
+*  access the corresponding portal, e.g. link http://localhost:5173/ to start the web app in the browser.
+*  double check if your port is 5173 or something else, incorrect port can lead to errors
 
 ## Design Document
 
@@ -25,4 +25,4 @@ Please refer to pdf file * `NEU-CS5010-Project1.pdf` or access https://docs.goog
 
 ## Video Demo
 
-Please go to: https://youtu.be/QxfPeqEjQJY
+For detailed Demo on how to use the web app, please go to: https://youtu.be/QxfPeqEjQJY

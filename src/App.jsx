@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route, useLocation,} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import PosterPage from "./pages/PosterPage";

@@ -6,7 +6,6 @@ export default function SignupPage(){
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  // const [userType, setUserType] = useState("1");
 
   const onSubmit = async (e) =>{
     e.preventDefault();
@@ -40,18 +39,6 @@ export default function SignupPage(){
             required
             placeholder="Enter password" onChange={(e) => setPassword(e.target.value)} />
         </div>
-        {/* <div className="mb-3">
-          <label>Deliverer or Poster? Select here: </label>
-          <select
-            className="custom-select my-1 mr-sm-2"
-            id="inlineFormCustomSelectPref"
-            value={userType}
-            onChange={(e) => setUserType(e.target.value)}
-          >
-            <option value={1}>Deliverer</option>
-            <option value={2}>Poster</option>
-          </select>
-        </div> */}
         <div className="d-grid">
           <button type="submit" className="btn btn-primary" onClick={onSubmit}>
           Sign Up
