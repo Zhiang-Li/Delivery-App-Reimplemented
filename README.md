@@ -25,4 +25,4 @@ Please refer to pdf file * `NEU-CS5010-Project1.pdf` or access https://docs.goog
 
 ## Video Demo
 
-For detailed Demo on how to use the web app, please go to: https://youtu.be/QxfPeqEjQJY
+For detailed Demo on how to use the web app, please go to: https://youtu.be/5Pf16WU8PZs
