@@ -33,12 +33,14 @@ export default function PosterPage({onAddErrand}) {
           <label>Title</label>
           <input
             type="text"
+            name="title"
             className="form-control"
             placeholder="Item title" ref={titleRef}/>
         </div>
         <div className="mb-3">
           <label>Description</label>
           <textarea
+            name="description"
             className="form-control"
             placeholder="Write your description" 
             rows={3} ref={descriptionRef}/>
@@ -64,12 +66,14 @@ export default function PosterPage({onAddErrand}) {
         <div className="mb-3">
           <label>Destination</label>
           <input
+            name="destination"
             type="text"
             className="form-control" ref={destinationRef}/>
         </div>
         <div className="mb-3">
           <label>Compensation</label>
           <input
+            name="compensation"
             type="number"
             className="form-control" ref={compensationRef}/>
         </div>

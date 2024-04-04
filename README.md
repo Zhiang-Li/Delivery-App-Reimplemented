@@ -23,6 +23,19 @@ Faster is a user-friendly application that connects individuals who need errands
 
 Please refer to pdf file * `NEU-CS5010-Project1.pdf` or access https://docs.google.com/document/d/1BWW6e72phlJCiWY4HDU9rIKPzyGTcNVNF54zpSe2Hrw/edit?usp=sharing
 
+## TDD by Cypress
+* Test on User Cases 1: Users can log in as poster
+* Test on User Cases 2: Users can log in as deliverer
+* Test on User Cases 3: Deliverer can accept an errand by the accept button
+* Test on User Cases 4: Deliverer can cancel an errand by the cancel button 
+* Test on User Cases 5: Deliverer can complete an errand by the complete button
+
+
 ## Video Demo
 
 For detailed Demo on how to use the web app, please go to: https://youtu.be/5Pf16WU8PZs
+
+## Cypress Test Demo
+
+For detailed showcase on how Cypress tests work on 5 user cases above, please go to: https://youtu.be/XEmRGLpkREQ
+

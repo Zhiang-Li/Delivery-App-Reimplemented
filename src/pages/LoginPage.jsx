@@ -1,15 +1,19 @@
-import React, {useState}from "react";
+import React, {useState, useRef}from "react";
 import LoginNavBar from "../templates/LoginNavBar";
 import { useNavigate} from "react-router-dom";
 import { myFirebase } from "../models/MyFirebase";
 export default function LoginPage(){
   const navigate = useNavigate();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
   const [userType, setUserType] = useState("1");
+  const emailRef = useRef();
+  const passwordRef = useRef();
 
   const onLogin = async (e) => {
     e.preventDefault();
+    const email = emailRef.current.value;
+    const password = passwordRef.current.value;
     if(!email.includes("@") || !email.includes(".com") || password.length < 10){
       alert("email type incorrect or password length less than 10!");
       return;
@@ -35,15 +39,21 @@ export default function LoginPage(){
           <label>Email address</label>
           <input
             type="email"
+            name="email"
             className="form-control"
-            placeholder="Enter email" onChange={(e)=>setEmail(e.target.value)}/>
+            defaultValue="test@gmail.com"
+            ref={emailRef}
+            placeholder="Enter email" />
         </div>
         <div className="mb-3">
           <label>Password</label>
           <input
             type="password"
+            name="password"
             className="form-control"
-            placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
+            defaultValue="jimmyjimmy"
+            ref={passwordRef}
+            placeholder="Enter password" />
         </div>
         <div className="mb-3">
           <label>Deliverer or Poster? Select here: </label>
